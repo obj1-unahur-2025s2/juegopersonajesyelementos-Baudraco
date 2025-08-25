@@ -6,7 +6,6 @@ object luisa {
 }
 
 object floki {
-  
   var arma = jabalina
 
   method encontrar(elemento) {
@@ -14,9 +13,7 @@ object floki {
         elemento.recibirAtaque(arma.potencia())
         arma.usar()
     }
-    
   }
-
 }
 
 object mario {
